@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #333;
+    color:white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem;
+    padding: 2rem;
+}
+h1{
+    color:white;
+}
+img{
+   /* object-fit: cover; */
+   width: 250px;
+   margin: 0 auto;
+}
+a{
+    color: rgb(219, 12, 64);
+}
+span{
+    color: green;
+    justify-self: flex-end;
+}
+p{
+  justify-content: space-around;
+}
